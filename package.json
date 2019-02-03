@@ -1,0 +1,45 @@
+{
+  "name": "arya",
+  "version": "1.0.0",
+  "description": "Headless CMS",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon --exec './node_modules/.bin/eslint *.js && ./node_modules/.bin/babel-node index.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://itzsrikanth@gitlab.com/itzsrikanth/arya.git"
+  },
+  "keywords": [
+    "CMS",
+    "NodeJs",
+    "MongoDB"
+  ],
+  "author": "Srikanth Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/itzsrikanth/arya/issues"
+  },
+  "homepage": "https://gitlab.com/itzsrikanth/arya#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.9"
+  }
+}
