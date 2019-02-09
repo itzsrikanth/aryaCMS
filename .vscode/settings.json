@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.git": false
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "search.showLineNumbers": true,
+    "search.usePCRE2": true,
+    "eslint.autoFixOnSave": true
+}
